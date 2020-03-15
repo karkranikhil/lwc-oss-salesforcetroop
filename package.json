@@ -3,7 +3,7 @@
     "description": "My amazing LWC app",
     "version": "0.0.1",
     "author": "nikhil.karkra@rmit.edu.au",
-    "bugs": "https://github.com/nikhil.karkra@rmit.edu.au/my-app/issues",
+    "bugs": "https://github.com/karkranikhil/lwc-oss-salesforcetroop/issues",
     "dependencies": {
         "compression": "^1.7.4",
         "express": "^4.17.1",
@@ -22,7 +22,7 @@
         "npm": ">=6.4.1",
         "yarn": ">=1.9.4"
     },
-    "homepage": "https://github.com/nikhil.karkra@rmit.edu.au/my-app",
+    "homepage": "https://github.com/karkranikhil/lwc-oss-salesforcetroop",
     "husky": {
         "hooks": {
             "pre-commit": "lint-staged"
@@ -51,7 +51,7 @@
         ],
         "exec": "node ./src/server/api.js"
     },
-    "repository": "nikhil.karkra@rmit.edu.au/my-app",
+    "repository": "karkra.nikhil@gmail.com/my-app",
     "scripts": {
         "build": "lwc-services build -m production",
         "build:development": "lwc-services build",
